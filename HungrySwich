@@ -22,9 +22,11 @@ public class main {
                     System.out.println("Did you eat Breakfast?");
                     Answer = tKeyboard.nextLine();
                     switch(Answer.toLowerCase()) {
+                       
                         case "yes":
                             System.out.println("Buy Diet Coke.");
                             break;
+                       
                         case "no":
                             System.out.println("Buy Coke.");
                             break;
